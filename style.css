@@ -1,0 +1,36 @@
+#navBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+
+#navBar section a {
+  text-decoration: none;
+}
+
+#navBar section a:hover {
+  text-decoration: underline;
+}
+
+#navBar section #img:hover {
+  text-decoration: none;
+}
+
+#subheading {
+  display: flex;
+  align-items: center;
+}
+
+#subheading form {
+  flex-grow: 1;
+  display: flex;
+}
+
+#subheading form #search {
+  flex-grow: 1;
+}
+
+#subheading form #magGlassSearch {
+  max-width: 2rem;
+  height: auto;
+}
