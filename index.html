@@ -4,27 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Qwirty (clone)</title>
   </head>
   <body>
     <header>
       <nav id="navBar">
-        <section>
-          <a href="a">Big Deals</a>
-          <a href="a">Top Brands</a>
-          <a href="a">Suggestions</a>
-          <a href="a">Help &amp; Contact</a>
-        </section>
-        <section>
-          <a href="a">Log In/Sign Up</a>
-          <a href="a">Account</a>
-          <a id="img" href="a">cart</a>
-        </section>
+        <menu>
+          <a href="a" class="leftNavItem">Big Deals</a>
+          <a href="a" class="leftNavItem">Top Brands</a>
+          <a href="a" class="leftNavItem">Suggestions</a>
+          <a href="a" class="leftNavItem">Help &amp; Contact</a>
+        </menu>
+        <menu>
+          <a href="a" class="rightNavItem">Log In/Sign Up</a>
+          <a href="a" class="rightNavItem">Account</a>
+          <a id="img" href="a" class="rightNavItem">cart</a>
+        </menu>
       </nav>
     </header>
     <main>
       <div id="subheading">
-        <h1>Qwirty</h1>
+        <p id="logo">Qwirty</p>
         <form action="./index.html">
           <input id="search" type="text" placeholder="Search for..." />
           <input
@@ -36,32 +42,291 @@
         </form>
         <a id="creditAd">0% Financing 24 Months</a>
       </div>
-      <div>
-        <aside id="toc"></aside>
+      <div id="bodySection">
+        <aside id="toc">
+          <ul>
+            <li><a href="a">CLOTHING &amp; SHOES</a></li>
+            <li><a href="a">ELECTRONICS</a></li>
+            <li><a href="a">BOOKS</a></li>
+            <li><a href="a">FOOD &amp; DRINKS</a></li>
+            <li><a href="a">APPLIANCES</a></li>
+            <li><a href="a">SPORTS &amp; OUTDOORS</a></li>
+            <li><a href="a">TOYS &amp; BABY</a></li>
+            <li><a href="a">GARDEN</a></li>
+          </ul>
+        </aside>
+        <ul id="productGrid">
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+          <li class="gridItem">
+            <h2>Product Name</h2>
+            <figure>
+              <img src="/imgs/broken.jpg" alt="product image" />
+            </figure>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              corporis laboriosam nihil tempore esse, veniam sit vitae beatae
+              natus debitis quae cumque sequi. Architecto dolore laudantium ad
+              provident assumenda quae!
+            </p>
+            <div class="purchaseBar">
+              <p>Price: $27.99</p>
+              <button type="submit">cart</button>
+            </div>
+          </li>
+        </ul>
       </div>
     </main>
     <footer>
       <section>
-        <h2>Customer Care</h2>
-        <ul>
-          <li><a>Account</a></li>
-          <li><a>Orders</a></li>
-          <li><a>Policies</a></li>
-          <li><a>Credit</a></li>
-          <li><a>Help</a></li>
+        <p>Customer Care</p>
+        <ul class="footerLinks">
+          <li><a href="a">Account</a></li>
+          <li><a href="a">Orders</a></li>
+          <li><a href="a">Policies</a></li>
+          <li><a href="a">Credit</a></li>
+          <li><a href="a">Help</a></li>
         </ul>
       </section>
       <section>
-        <h2>Sales</h2>
-        <ul>
-          <li><a>Become a Seller</a></li>
-          <li><a>Manage Your Products</a></li>
-          <li><a>Advertise</a></li>
+        <p>Sales</p>
+        <ul class="footerLinks">
+          <li><a href="a">Become a Seller</a></li>
+          <li><a href="a">Manage Your Products</a></li>
+          <li><a href="a">Advertise</a></li>
         </ul>
       </section>
       <section>
-        <h2>About Us</h2>
-        <ul></ul>
+        <p>About Us</p>
+        <ul class="footerLinks">
+          <li><a href="a">Careers</a></li>
+          <li><a href="a">Blogs</a></li>
+          <li><a href="a">Our History</a></li>
+          <li><a href="a">Press Release</a></li>
+          <li><a href="a">Take a Tour</a></li>
+        </ul>
       </section>
     </footer>
   </body>
